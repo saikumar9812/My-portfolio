@@ -1,23 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
   <defs>
     <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#8e44ad;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#EFCC68;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#443F2F;stop-opacity:1" />
     </linearGradient>
     <linearGradient id="gradient2" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#2ecc71;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#27ae60;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#232326;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EFCC68;stop-opacity:1" />
     </linearGradient>
   </defs>
   <g>
-    <!-- Data Engineering Pipeline -->
+    <!-- Data Pipeline -->
     <rect x="40" y="40" width="40" height="120" fill="url(#gradient1)" />
     <rect x="120" y="40" width="40" height="120" fill="url(#gradient1)" />
     
-    <!-- Flow connections -->
+    <!-- Flow Connection -->
     <line x1="40" y1="100" x2="120" y2="100" stroke="url(#gradient2)" stroke-width="6" stroke-dasharray="5,5" />
-    <circle cx="40" cy="100" r="5" fill="#e74c3c"/>
-    <circle cx="120" cy="100" r="5" fill="#e74c3c"/>
+    
+    <!-- Nodes -->
+    <circle cx="40" cy="100" r="5" fill="#EFCC68"/>
+    <circle cx="120" cy="100" r="5" fill="#EFCC68"/>
   </g>
-  <text x="50%" y="50%" text-anchor="middle" font-size="18" fill="#333" dy="100">Data Engineering</text>
+  <text x="50%" y="50%" text-anchor="middle" font-size="18" fill="#443F2F" dy="100">Data Engineering</text>
 </svg>

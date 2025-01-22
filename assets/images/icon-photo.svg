@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
   <defs>
     <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#16a085;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1abc9c;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#EFCC68;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#443F2F;stop-opacity:1" />
     </linearGradient>
     <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#232326;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EFCC68;stop-opacity:1" />
     </linearGradient>
   </defs>
   <g>
@@ -15,13 +15,14 @@
     <rect x="20" y="70" width="160" height="40" fill="url(#gradient2)" />
     <rect x="20" y="120" width="160" height="40" fill="url(#gradient1)" />
     
-    <!-- Full stack layer details -->
-    <circle cx="50" cy="40" r="10" fill="#2980b9" />
-    <circle cx="50" cy="90" r="10" fill="#2980b9" />
-    <circle cx="50" cy="140" r="10" fill="#2980b9" />
+    <!-- Full Stack Node Circles -->
+    <circle cx="50" cy="40" r="10" fill="#443F2F" />
+    <circle cx="50" cy="90" r="10" fill="#443F2F" />
+    <circle cx="50" cy="140" r="10" fill="#443F2F" />
     
-    <line x1="50" y1="40" x2="50" y2="90" stroke="#fff" stroke-width="2"/>
-    <line x1="50" y1="90" x2="50" y2="140" stroke="#fff" stroke-width="2"/>
+    <!-- Connecting Lines -->
+    <line x1="50" y1="40" x2="50" y2="90" stroke="#EFCC68" stroke-width="2"/>
+    <line x1="50" y1="90" x2="50" y2="140" stroke="#EFCC68" stroke-width="2"/>
   </g>
-  <text x="50%" y="50%" text-anchor="middle" font-size="18" fill="#333" dy="100">Full Stack</text>
+  <text x="50%" y="50%" text-anchor="middle" font-size="18" fill="#443F2F" dy="100">Full Stack</text>
 </svg>

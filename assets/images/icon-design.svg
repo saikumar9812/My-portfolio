@@ -1,35 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
   <defs>
     <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ff7f00;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#ff4500;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#EFCC68;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#443F2F;stop-opacity:1" />
     </linearGradient>
     <linearGradient id="gradient2" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#0000ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#00bfff;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#232326;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EFCC68;stop-opacity:1" />
     </linearGradient>
   </defs>
   <g>
-    <!-- Neural network nodes -->
+    <!-- Neural Network Nodes -->
     <circle cx="60" cy="60" r="20" fill="url(#gradient1)" />
     <circle cx="140" cy="60" r="20" fill="url(#gradient1)" />
     <circle cx="60" cy="140" r="20" fill="url(#gradient1)" />
     <circle cx="140" cy="140" r="20" fill="url(#gradient1)" />
 
-    <!-- Connecting lines -->
+    <!-- Connecting Lines -->
     <line x1="60" y1="60" x2="60" y2="140" stroke="url(#gradient2)" stroke-width="4"/>
     <line x1="140" y1="60" x2="140" y2="140" stroke="url(#gradient2)" stroke-width="4"/>
     <line x1="60" y1="60" x2="140" y2="60" stroke="url(#gradient2)" stroke-width="4"/>
     <line x1="60" y1="140" x2="140" y2="140" stroke="url(#gradient2)" stroke-width="4"/>
 
-    <!-- Inner central node -->
-    <circle cx="100" cy="100" r="12" fill="#ff4500" />
+    <!-- Inner Node -->
+    <circle cx="100" cy="100" r="12" fill="#EFCC68" />
 
-    <!-- Inner connections -->
-    <line x1="60" y1="60" x2="100" y2="100" stroke="#fff" stroke-width="3"/>
-    <line x1="140" y1="60" x2="100" y2="100" stroke="#fff" stroke-width="3"/>
-    <line x1="60" y1="140" x2="100" y2="100" stroke="#fff" stroke-width="3"/>
-    <line x1="140" y1="140" x2="100" y2="100" stroke="#fff" stroke-width="3"/>
+    <!-- Inner Connections -->
+    <line x1="60" y1="60" x2="100" y2="100" stroke="#232326" stroke-width="3"/>
+    <line x1="140" y1="60" x2="100" y2="100" stroke="#232326" stroke-width="3"/>
+    <line x1="60" y1="140" x2="100" y2="100" stroke="#232326" stroke-width="3"/>
+    <line x1="140" y1="140" x2="100" y2="100" stroke="#232326" stroke-width="3"/>
   </g>
-  <text x="50%" y="50%" text-anchor="middle" font-size="18" fill="#333" dy="60">Machine Learning</text>
+  <text x="50%" y="50%" text-anchor="middle" font-size="18" fill="#443F2F" dy="60">Machine Learning</text>
 </svg>

@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
   <defs>
     <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f39c12;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#d35400;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#EFCC68;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#443F2F;stop-opacity:1" />
     </linearGradient>
     <linearGradient id="gradient2" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#c0392b;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#232326;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EFCC68;stop-opacity:1" />
     </linearGradient>
   </defs>
   <g>
-    <!-- Sorting Algorithm Representation -->
+    <!-- Sorting Algorithm -->
     <rect x="40" y="40" width="20" height="120" fill="url(#gradient1)" />
     <rect x="80" y="40" width="20" height="120" fill="url(#gradient1)" />
     <rect x="120" y="40" width="20" height="120" fill="url(#gradient1)" />
     
-    <!-- Sorting Lines -->
+    <!-- Connections -->
     <line x1="40" y1="40" x2="40" y2="160" stroke="url(#gradient2)" stroke-width="6"/>
     <line x1="80" y1="40" x2="80" y2="160" stroke="url(#gradient2)" stroke-width="6"/>
     <line x1="120" y1="40" x2="120" y2="160" stroke="url(#gradient2)" stroke-width="6"/>
     
-    <!-- Algorithm Progress -->
-    <path d="M 40 160 C 60 140, 100 120, 120 160" stroke="#2980b9" stroke-width="4" fill="none"/>
+    <!-- Path Representing Algorithm -->
+    <path d="M 40 160 C 60 140, 100 120, 120 160" stroke="#232326" stroke-width="4" fill="none"/>
   </g>
-  <text x="50%" y="50%" text-anchor="middle" font-size="18" fill="#333" dy="100">DSA</text>
+  <text x="50%" y="50%" text-anchor="middle" font-size="18" fill="#443F2F" dy="100">DSA</text>
 </svg>
