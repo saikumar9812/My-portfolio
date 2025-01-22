@@ -1,13 +1,9 @@
-<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Frontend (browser) -->
-  <rect x="10" y="10" width="30" height="30" fill="#EFCC68"/>
-  <text x="25" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#443F2F">Frontend</text>
-
-  <!-- Backend (server) -->
-  <rect x="60" y="10" width="30" height="30" fill="#EFCC68"/>
-  <text x="75" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#443F2F">Backend</text>
-
-  <!-- Data Flow Arrow -->
-  <line x1="40" y1="25" x2="60" y2="25" stroke="#443F2F" stroke-width="2"/>
-  <polygon points="58,22 62,25 58,28" fill="#443F2F"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <circle cx="100" cy="100" r="90" fill="#8bc34a" stroke="#333" stroke-width="4"/>
+  <rect x="50" y="50" width="100" height="100" fill="#ffffff"/>
+  <line x1="50" y1="50" x2="150" y2="50" stroke="#333" stroke-width="4"/>
+  <line x1="50" y1="50" x2="50" y2="150" stroke="#333" stroke-width="4"/>
+  <line x1="150" y1="50" x2="150" y2="150" stroke="#333" stroke-width="4"/>
+  <line x1="50" y1="150" x2="150" y2="150" stroke="#333" stroke-width="4"/>
+  <text x="50%" y="50%" text-anchor="middle" font-size="20" fill="#333" dy="5">FS</text>
 </svg>
