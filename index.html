@@ -2,125 +2,82 @@
 <html lang="en">
 
 <head>
-  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sai Kumar</title>
-  <!--
-    - favicon
-  -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-  <!--
-    - #MAIN
-  -->
-
   <main>
 
-    <!--
-      - #SIDEBAR
-    -->
-
+    <!-- SIDEBAR -->
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
         <figure class="avatar-box" style="width: 120px; height: 120px; overflow: hidden; border-radius: 50%; display: flex; justify-content: center; align-items: center; background: #fff;">
           <img src="./assets/images/Mypic.PNG" alt="K. Sai Kumar Reddy" style="width: 100%; height: auto; object-fit: cover; object-position: top;">
         </figure>
-        
 
         <div class="info-content">
           <h1 class="name" title="K. Sai Kumar Reddy">K. Sai Kumar Reddy</h1>
-
           <p class="title">Data Engineer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
-
           <ion-icon name="chevron-down"></ion-icon>
         </button>
-
       </div>
 
       <div class="sidebar-info_more">
-
         <div class="separator"></div>
 
         <ul class="contacts-list">
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
-              <a href="mailto:saikumar98125@gmail.com
-" class="contact-link">saikumar98125@gmail.com
-              </a>
+              <a href="mailto:saikumar98125@gmail.com" class="contact-link">saikumar98125@gmail.com</a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Phone</p>
-
               <a href="tel:+919392629185" class="contact-link">+91 9392629185</a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="calendar-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
-
               <time datetime="2004-09-24">Sep 24, 2004</time>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Location</p>
-
               <address>Hyderabad, India</address>
             </div>
-
           </li>
 
         </ul>
@@ -130,19 +87,13 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://github.com/saikumar9812" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
+            <a href="https://www.linkedin.com/in/saikumar98125" class="social-link" target="_blank">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
@@ -150,64 +101,37 @@
         </ul>
 
       </div>
-
     </aside>
 
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
+    <!-- MAIN CONTENT -->
     <div class="main-content">
 
-      <!--
-        - #NAVBAR
-      -->
-
+      <!-- NAVBAR -->
       <nav class="navbar">
-
         <ul class="navbar-list">
-
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link active" data-nav-link>About</button>
           </li>
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
-
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Certifications</button>
           </li>
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
-
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>skills</button>
+            <button class="navbar-link" data-nav-link>Skills</button>
           </li>
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
-
         </ul>
-
       </nav>
 
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
+      <!-- ABOUT -->
+      <article class="about active" data-page="about">
 
         <header>
           <h2 class="h2 article-title">About me</h2>
@@ -215,210 +139,74 @@
 
         <section class="about-text">
           <p>
-            I am a dedicated Computer Science Engineering student with a specialization in Artificial Intelligence and Machine Learning, passionate about solving complex problems through technology. My journey has equipped me with a strong foundation in building scalable systems, from designing efficient data pipelines to developing predictive models using frameworks like TensorFlow and PyTorch. I enjoy working on end-to-end solutions, whether it's crafting seamless full-stack web applications or optimizing ETL processes for large-scale datasets. My approach to problem-solving is rooted in a deep understanding of data structures and algorithms, which allows me to design efficient and optimized solutions. By applying object-oriented programming principles to create modular and reusable code, I strive to deliver solutions that are both innovative and impactful.
+            Data Engineer with 1+ year of production experience at Bridgehorn, building enterprise-grade data infrastructure for financial services clients. I design and own end-to-end data systems — from ingesting 1.5M+ records daily via Apache Airflow and modeling them in Snowflake with dbt and Medallion architecture, to deploying LLM-powered analytics and full-stack internal tools using FastAPI and React. Snowflake SnowPro Core certified and IEEE-published researcher (ICCIC 2024).
+          </p>
+          <p>
+            I have a strong foundation in Python, SQL, and cloud-native tooling, with hands-on experience across the full data stack — pipelines, warehouse design, ML deployment, and API-first application development. I enjoy building systems that are not just functional but measurably impactful.
           </p>
         </section>
 
-
-        <!--
-          - service
-        -->
-
+        <!-- SERVICES -->
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">What I'm doing</h3>
 
           <ul class="service-list">
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
+                <img src="./assets/images/icon-dev.svg" alt="Data Engineering icon" width="40">
               </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Machine Learning</h4>
-
-                <p class="service-item-text">
-                  Developing and deploying machine learning models, preprocessing and analyzing large datasets, and optimizing algorithms for predictive analytics and real-world applications.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Data Engineering</h4>
-
                 <p class="service-item-text">
-                  Building and managing data infrastructure, pipelines, and systems to process and store large datasets efficiently. Working with technologies such as Snowflake, Azure, Databricks, and MySQL databases.
-
+                  Building distributed ETL/ELT pipelines, orchestrating workflows with Apache Airflow, modeling Snowflake warehouses with dbt and Medallion architecture, and maintaining 99% uptime across enterprise data systems.
                 </p>
               </div>
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                <img src="./assets/images/icon-app.svg" alt="AI/LLM icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Structures & Algorithms
-                </h4>
-
+                <h4 class="h4 service-item-title">AI & LLM Integration</h4>
                 <p class="service-item-text">
-                  Applying strong problem-solving skills and knowledge of algorithms to optimize performance in coding tasks and competitive programming.
-
+                  Deploying LLM-powered analytics using Snowflake Cortex for NLP-to-SQL conversational queries, and building ML pipelines with Scikit-Learn for predictive modeling on enterprise datasets.
                 </p>
               </div>
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                <img src="./assets/images/icon-design.svg" alt="Full-Stack icon" width="40">
               </div>
-
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Full-Stack Development</h4>
-
                 <p class="service-item-text">
-                  Developing both front-end and back-end of web applications, working with databases, and server-side technologies.
-
+                  Building API-first internal tools with Python FastAPI backends, React + TypeScript frontends, Azure AD OAuth, and GitHub Actions CI/CD — deployed to production with real business users.
                 </p>
               </div>
+            </li>
 
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="ML icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+                <p class="service-item-text">
+                  Developing deep learning models with TensorFlow and PyTorch, building time-series forecasting pipelines, and applying NLP techniques to real-world classification and prediction problems.
+                </p>
+              </div>
             </li>
 
           </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title"></h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-            </li>
-
-            <li class="testimonials-item">
-              
-            </li>
-
-            <li class="testimonials-item">
-             
-            </li>
-
-            <li class="testimonials-item">
-             
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-              </figure>
-
-            </div>
-
-            <div class="modal-content">
-
-
-
-              <div data-modal-text>
-                <p>
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title"></h3>
-
-
-            <li class="clients-item">
-              <a href="#">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-              </a>
-            </li>
-
-      
-
         </section>
 
       </article>
 
-            <!--
-        - #RESUME
-      -->
-
+      <!-- RESUME -->
       <article class="resume" data-page="resume">
 
         <header>
@@ -426,366 +214,200 @@
         </header>
 
         <section class="timeline">
-
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="book-outline"></ion-icon>
             </div>
-
             <h3 class="h3">Education</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Vasavi College of Engineering
-              </h4>
-
-              <span>2021 - 2025</span>
-
+              <h4 class="h4 timeline-item-title">Vasavi College of Engineering</h4>
+              <span>2021 — 2025</span>
               <p class="timeline-text">
-                Currently pursuing my Bachelor of Engineering in Computer Science (AI & ML) at Vasavi College of Engineering with a CGPA of 8.68, building a strong foundation in programming, machine learning, and full-stack development.
-
-
-
+                Bachelor of Engineering — Computer Science & Engineering (AI & ML). CGPA: 8.68.
               </p>
-
             </li>
 
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Narayana junior college</h4>
-
+              <h4 class="h4 timeline-item-title">Narayana Junior College</h4>
               <span>2019 — 2021</span>
-
               <p class="timeline-text">
-                Completed my Intermediate Education (MPC) at Narayana Junior College with a 94.4% and a JEE Main percentile of 95.96, building a strong foundation in mathematics, physics, and chemistry for my career in engineering and technology.
-
+                Intermediate Education (MPC). 94.4% — JEE Main Percentile: 95.96.
               </p>
-
             </li>
 
             <li class="timeline-item">
-
               <h4 class="h4 timeline-item-title">Newgen High School</h4>
-
-              <span>2012 - 2019</span>
-
-              <p class="timeline-text">Completed my secondary schooling at Newgen High School in Hyderabad, achieving a 9.8 GPA.
+              <span>2012 — 2019</span>
+              <p class="timeline-text">
+                Secondary schooling. GPA: 9.8.
               </p>
-
             </li>
 
           </ol>
-
         </section>
 
-        
         <section class="timeline">
-
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="book-outline"></ion-icon>
             </div>
-
             <h3 class="h3">Experience</h3>
           </div>
 
           <ol class="timeline-list">
 
-            
-<li class="timeline-item">
-  <h3 class="h4 timeline-item-title">Bridgehorn | Senior Data Engineer</h3>
-  <span>June 2025 – Present</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bridgehorn — Data Engineer</h4>
+              <span>Jan 2025 — Present</span>
+              <p class="timeline-text">
+                • Built and maintained distributed data pipelines ingesting <strong>1.5M+ records daily</strong> from 8 enterprise SaaS systems (Sage ERP, Intapp CRM, Lever ATS) into Snowflake via Apache Airflow — Docker-based CI/CD, <strong>99% uptime</strong>.
+                <br><br>
+                • Designed multi-layered dbt ELT pipelines with <strong>Medallion architecture</strong> (Bronze-Silver-Gold), reducing infrastructure costs by <strong>36%</strong> through warehouse right-sizing and query optimization.
+                <br><br>
+                • Built full-stack <strong>pricing estimation tool</strong> (FastAPI + React + TypeScript) secured via Azure AD OAuth, deployed via GitHub Actions — cutting turnaround from ~45 to ~<strong>10 min</strong>.
+                <br><br>
+                • Built <strong>financial data reporting portal</strong> enabling 6 portfolio companies to submit monthly P&L, Balance Sheet, and Cash Flow data (160+ fields) with automated email reminders and Excel export.
+                <br><br>
+                • Deployed <strong>LLM-powered AI analyst</strong> via Snowflake Cortex for NLP-to-SQL conversational queries; built Scikit-Learn attrition prediction pipeline at <strong>78% accuracy</strong>.
+                <br><br>
+                • Awarded <strong>Bridgehorn Spotlight Award (2025)</strong> for exceptional individual contribution and measurable impact.
+              </p>
+            </li>
 
-  <p class="timeline-text">
-    • <strong>Rapid Career Progression:</strong> Promoted to Senior Data Engineer within 5 months due to successful delivery of the Airflow migration and high-impact infrastructure optimizations.
-    <br><br>
-    • Spearheaded the migration of complex ETL workflows from Matillion to Apache Airflow, achieving a 36% reduction in data processing costs.
-    <br><br>
-    • Architected scalable data models using the Medallion Architecture (Bronze/Silver/Gold) in Snowflake and dbt to support enterprise warehousing.
-    <br><br>
-    • Developed an interactive chatbot using Generative AI, enabling stakeholders to generate analytics via natural language.
-  </p>
-</li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Oasis Infobyte — Data Science Intern</h4>
+              <span>June 2023 — July 2023</span>
+              <p class="timeline-text">
+                • Developed Random Forest and SVM classification models achieving <strong>91% accuracy</strong>; built ARIMA time-series forecasting on 50K+ sales records, reducing prediction error by <strong>22%</strong>.
+                <br><br>
+                • Analyzed regional unemployment patterns using K-Means clustering and Pandas on government datasets.
+              </p>
+            </li>
 
-<li class="timeline-item">
-  <h3 class="h4 timeline-item-title">Bridgehorn | Data Engineering Intern</h3>
-  <span>Jan 2025 – May 2025</span>
-
-  <p class="timeline-text">
-    • Engineered incremental data loading protocols to replace full-load cycles, significantly reducing compute latency for recurring ETL operations.
-    <br><br>
-    • Managed distributed VM infrastructure and enhanced Azure CI/CD pipelines, maintaining 99% system uptime through robust monitoring.
-    <br><br>
-    • Developed end-to-end data ingestion and transformation components using Python, Docker, and Airflow.
-  </p>
-</li>
-<li class="timeline-item">
-  <h3 class="h4 timeline-item-title">Oasis Infobyte | Data Science Intern</h3>
-  <span>June 2023 - July 2023</span>
-
-  <p class="timeline-text">
-    • Built and optimized machine learning models for Iris Classification, Spam Detection, and Price Prediction, achieving high accuracy metrics.
-    <br><br>
-    • Performed Exploratory Data Analysis (EDA) and feature engineering using Pandas and TensorFlow, transforming raw data into model-ready datasets.
-  </p>
-</li>
           </ol>
-
         </section>
 
-        
       </article>
 
+      <!-- CERTIFICATIONS -->
+      <article class="certifications" data-page="certifications">
+        <div style="height: 34px;"></div>
 
-      
-        <!--
-          - Certifications
-        -->
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
 
-        <article class="certifications" data-page="certifications">
-          <div style="height: 34px;"></div>  
+        <section class="certification-list">
+          <ul class="certification-items">
 
-          <header>
-            <h2 class="h2 article-title">Certifications</h2>
-          </header>
-        
-          <section class="certification-list">
-        
-            <ul class="certification-items">
-        
-              <li class="certification-item" style="margin-bottom: 20px;">
-                <a href="https://achieve.snowflake.com/bbefd8ce-9692-4051-a94f-243362330f82#acc.MV8q3JTx" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
-                  <div class="certification-content-box" style="display: flex; align-items: center;">
-                    <div class="certification-icon-box" style="margin-right: 10px;">
-                      <img src="./assets/images/Snowflake.png" alt="Coursera Logo" width="40">
-                    </div>
-                    <div>
-                      <h4 class="h4 certification-title" style="display: block;">
-                        SnowPro Associate: Platform Certification ↗
-                      </h4>
-                      <p class="certification-text">Issued by Snowflake</p>
-                    </div>
+            <li class="certification-item" style="margin-bottom: 20px;">
+              <a href="https://achieve.snowflake.com/bbefd8ce-9692-4051-a94f-243362330f82#acc.MV8q3JTx" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
+                <div class="certification-content-box" style="display: flex; align-items: center;">
+                  <div class="certification-icon-box" style="margin-right: 10px;">
+                    <img src="./assets/images/Snowflake.png" alt="Snowflake Logo" width="40">
                   </div>
-                </a>
-              </li>
-        
-              <li class="certification-item" style="margin-bottom: 20px;">
-                <a href="https://drive.google.com/file/d/1_fZMGyQXLiE2Bniyp17AtVJQms16St7G/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
-                  <div class="certification-content-box" style="display: flex; align-items: center;">
-                    <div class="certification-icon-box" style="margin-right: 10px;">
-                      <img src="./assets/images/coursera logo.png" alt="Coursera Logo" width="40">
-                    </div>
-                    <div>
-                      <h4 class="h4 certification-title" style="display: block;">
-                        Meta Back-End Developer Capstone ↗
-                      </h4>
-                      <p class="certification-text">Issued by Coursera</p>
-                    </div>
+                  <div>
+                    <h4 class="h4 certification-title" style="display: block;">SnowPro Core Associate Certificate ↗</h4>
+                    <p class="certification-text">Issued by Snowflake</p>
                   </div>
-                </a>
-              </li>
-        
-              <li class="certification-item" style="margin-bottom: 20px;">
-                <a href="https://drive.google.com/file/d/1uHuNsDDitRR9S9jRGEGF2CTQ7Ies9XPL/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
-                  <div class="certification-content-box" style="display: flex; align-items: center;">
-                    <div class="certification-icon-box" style="margin-right: 10px;">
-                      <img src="./assets/images/coursera logo.png" alt="Coursera Logo" width="40">
-                    </div>
-                    <div>
-                      <h4 class="h4 certification-title" style="display: block;">
-                        Meta Front-End Developer Capstone ↗
-                      </h4>
-                      <p class="certification-text">Issued by Coursera</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-        
-              <li class="certification-item" style="margin-bottom: 20px;">
-                <a href="https://drive.google.com/file/d/1QsldG3oVTy0bGhU4buYkAqBiCZJ4B-1K/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
-                  <div class="certification-content-box" style="display: flex; align-items: center;">
-                    <div class="certification-icon-box" style="margin-right: 10px;">
-                      <img src="./assets/images/coursera logo.png" alt="Coursera Logo" width="40">
-                    </div>
-                    <div>
-                      <h4 class="h4 certification-title" style="display: block;">
-                        Introduction to Front-End Development ↗
-                      </h4>
-                      <p class="certification-text">Issued by Coursera</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-        
-              <li class="certification-item" style="margin-bottom: 20px;">
-                <a href="https://drive.google.com/file/d/1rZOXTWkfOje0ZF8o74n4yT3aDn2khlKP/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
-                  <div class="certification-content-box" style="display: flex; align-items: center;">
-                    <div class="certification-icon-box" style="margin-right: 10px;">
-                      <img src="./assets/images/coursera logo.png" alt="Coursera Logo" width="40">
-                    </div>
-                    <div>
-                      <h4 class="h4 certification-title" style="display: block;">
-                        Programming for Everybody ↗
-                      </h4>
-                      <p class="certification-text">Issued by Coursera</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-        
-              <li class="certification-item" style="margin-bottom: 20px;">
-                <a href="https://drive.google.com/file/d/1GY_uwa3ke_vru-dPfbFDKRwqIx27pLY5/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
-                  <div class="certification-content-box" style="display: flex; align-items: center;">
-                    <div class="certification-icon-box" style="margin-right: 10px;">
-                      <img src="./assets/images/Cisco logo.png" alt="Cisco Logo" width="40">
-                    </div>
-                    <div>
-                      <h4 class="h4 certification-title" style="display: block;">
-                        CCNAv7: Enterprise Networking, Security, and Automation ↗
-                      </h4>
-                      <p class="certification-text">Issued by Cisco</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-        
-              <li class="certification-item" style="margin-bottom: 20px;">
-                <a href="https://drive.google.com/file/d/1EL3vogP4pKPVdi4Mu0NMZcItt-DpY-yS/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
-                  <div class="certification-content-box" style="display: flex; align-items: center;">
-                    <div class="certification-icon-box" style="margin-right: 10px;">
-                      <img src="./assets/images/Cisco logo.png" alt="Cisco Logo" width="40">
-                    </div>
-                    <div>
-                      <h4 class="h4 certification-title" style="display: block;">
-                        CCNAv7: Introduction to Networks ↗
-                      </h4>
-                      <p class="certification-text">Issued by Cisco</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-        
-              <li class="certification-item" style="margin-bottom: 20px;">
-                <a href="https://drive.google.com/file/d/1tSMpg8aOUSXhK8-o7dJba1sn5g5Ntg4B/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
-                  <div class="certification-content-box" style="display: flex; align-items: center;">
-                    <div class="certification-icon-box" style="margin-right: 10px;">
-                      <img src="./assets/images/Cisco logo.png" alt="Cisco Logo" width="40">
-                    </div>
-                    <div>
-                      <h4 class="h4 certification-title" style="display: block;">
-                        PCAP: Programming Essentials in Python ↗
-                      </h4>
-                      <p class="certification-text">Issued by Cisco</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-        
-              <li class="certification-item" style="margin-bottom: 20px;">
-                <a href="https://drive.google.com/file/d/1oTiyPQKbMSOXs7N-wuz6XIUpqFXI55m2/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
-                  <div class="certification-content-box" style="display: flex; align-items: center;">
-                    <div class="certification-icon-box" style="margin-right: 10px;">
-                      <img src="./assets/images/Cisco logo.png" alt="Cisco Logo" width="40">
-                    </div>
-                    <div>
-                      <h4 class="h4 certification-title" style="display: block;">
-                        CCNAv7: Switching, Routing, and Wireless Essentials ↗
-                      </h4>
-                      <p class="certification-text">Issued by Cisco</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-        
-              <li class="certification-item" style="margin-bottom: 20px;">
-                <a href="https://drive.google.com/file/d/1-z6V2RpVChFfedYstqaf-skiF1bF8X4c/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
-                  <div class="certification-content-box" style="display: flex; align-items: center;">
-                    <div class="certification-icon-box" style="margin-right: 10px;">
-                      <img src="./assets/images/Nptel logo.png" alt="NPTEL Logo" width="40">
-                    </div>
-                    <div>
-                      <h4 class="h4 certification-title" style="display: block;"> 
-                        Problem Solving through Programming in C ↗
-                      </h4>
-                      <p class="certification-text">Issued by NPTEL</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-        
-              <li class="certification-item" style="margin-bottom: 20px;">
-                <a href="https://drive.google.com/file/d/1R9RDiOAd4IhTf8_0oss8-JWHJ1IX6pNL/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
-                  <div class="certification-content-box" style="display: flex; align-items: center;">
-                    <div class="certification-icon-box" style="margin-right: 10px;">
-                      <img src="./assets/images/Nptel logo.png" alt="NPTEL Logo" width="40">
-                    </div>
-                    <div>
-                      <h4 class="h4 certification-title" style="display: block;">
-                        Programming, Data Structures, and Algorithms using Python ↗
-                      </h4>
-                      <p class="certification-text">Issued by NPTEL</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-        
-              <li class="certification-item" style="margin-bottom: 20px;">
-                <a href="https://drive.google.com/file/d/1zkubusECMmxSzxdRPXzS0hD6sHCDBcSX/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
-                  <div class="certification-content-box" style="display: flex; align-items: center;">
-                    <div class="certification-icon-box" style="margin-right: 10px;">
-                      <img src="./assets/images/Freecodecamp logo.png" alt="freeCodeCamp Logo" width="40">
-                    </div>
-                    <div>
-                      <h4 class="h4 certification-title" style="display: block;">
-                        Machine Learning with Python ↗
-                      </h4>
-                      <p class="certification-text">Issued by freeCodeCamp</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-        
-            </ul>
-        
-          </section>
-        
-        </article>
+                </div>
+              </a>
+            </li>
 
+            <li class="certification-item" style="margin-bottom: 20px;">
+              <a href="https://drive.google.com/file/d/1_fZMGyQXLiE2Bniyp17AtVJQms16St7G/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
+                <div class="certification-content-box" style="display: flex; align-items: center;">
+                  <div class="certification-icon-box" style="margin-right: 10px;">
+                    <img src="./assets/images/coursera logo.png" alt="Coursera Logo" width="40">
+                  </div>
+                  <div>
+                    <h4 class="h4 certification-title" style="display: block;">Meta Back-End Developer Professional Certificate ↗</h4>
+                    <p class="certification-text">Issued by Meta / Coursera</p>
+                  </div>
+                </div>
+              </a>
+            </li>
 
-      <!--
-        - #PORTFOLIO
-      -->      <!--
-        - #PORTFOLIO
-      -->
+            <li class="certification-item" style="margin-bottom: 20px;">
+              <a href="https://drive.google.com/file/d/1uHuNsDDitRR9S9jRGEGF2CTQ7Ies9XPL/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
+                <div class="certification-content-box" style="display: flex; align-items: center;">
+                  <div class="certification-icon-box" style="margin-right: 10px;">
+                    <img src="./assets/images/coursera logo.png" alt="Coursera Logo" width="40">
+                  </div>
+                  <div>
+                    <h4 class="h4 certification-title" style="display: block;">Meta Front-End Developer Professional Certificate ↗</h4>
+                    <p class="certification-text">Issued by Meta / Coursera</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li class="certification-item" style="margin-bottom: 20px;">
+              <a href="https://drive.google.com/file/d/1zkubusECMmxSzxdRPXzS0hD6sHCDBcSX/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
+                <div class="certification-content-box" style="display: flex; align-items: center;">
+                  <div class="certification-icon-box" style="margin-right: 10px;">
+                    <img src="./assets/images/Freecodecamp logo.png" alt="freeCodeCamp Logo" width="40">
+                  </div>
+                  <div>
+                    <h4 class="h4 certification-title" style="display: block;">Machine Learning with Python ↗</h4>
+                    <p class="certification-text">Issued by freeCodeCamp</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li class="certification-item" style="margin-bottom: 20px;">
+              <a href="https://drive.google.com/file/d/1R9RDiOAd4IhTf8_0oss8-JWHJ1IX6pNL/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
+                <div class="certification-content-box" style="display: flex; align-items: center;">
+                  <div class="certification-icon-box" style="margin-right: 10px;">
+                    <img src="./assets/images/Nptel logo.png" alt="NPTEL Logo" width="40">
+                  </div>
+                  <div>
+                    <h4 class="h4 certification-title" style="display: block;">Programming, Data Structures & Algorithms using Python ↗</h4>
+                    <p class="certification-text">Issued by NPTEL</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li class="certification-item" style="margin-bottom: 20px;">
+              <a href="https://drive.google.com/file/d/1tSMpg8aOUSXhK8-o7dJba1sn5g5Ntg4B/view?usp=sharing" class="credential-link" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
+                <div class="certification-content-box" style="display: flex; align-items: center;">
+                  <div class="certification-icon-box" style="margin-right: 10px;">
+                    <img src="./assets/images/Cisco logo.png" alt="Cisco Logo" width="40">
+                  </div>
+                  <div>
+                    <h4 class="h4 certification-title" style="display: block;">PCAP: Programming Essentials in Python ↗</h4>
+                    <p class="certification-text">Issued by Cisco</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <!-- PORTFOLIO -->
       <article class="portfolio" data-page="portfolio">
         <header>
           <h2 class="h2 article-title">Projects</h2>
         </header>
-      
+
         <section class="projects">
-          <!-- Filter Buttons -->
+
           <ul class="filter-list">
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>Machine Learning</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>Security and Optimization</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>Network Programming</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>Web Development</button>
-            </li>
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>Data Engineering</button></li>
+            <li class="filter-item"><button data-filter-btn>AI / ML</button></li>
+            <li class="filter-item"><button data-filter-btn>Full-Stack</button></li>
+            <li class="filter-item"><button data-filter-btn>Security</button></li>
           </ul>
-      
-          <!-- Filter Dropdown -->
+
           <div class="filter-select-box">
             <button class="filter-select" data-select>
               <div class="select-value" data-select-value>Select category</div>
@@ -794,122 +416,99 @@
               </div>
             </button>
             <ul class="select-list">
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-              <li class="select-item">
-                <button data-select-item>Machine Learning</button>
-              </li>
-              <li class="select-item">
-                <button data-select-item>Security and Optimization</button>
-              </li>
-              <li class="select-item">
-                <button data-select-item>Network Programming</button>
-              </li>
-              <li class="select-item">
-                <button data-select-item>Web Development</button>
-              </li>
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Data Engineering</button></li>
+              <li class="select-item"><button data-select-item>AI / ML</button></li>
+              <li class="select-item"><button data-select-item>Full-Stack</button></li>
+              <li class="select-item"><button data-select-item>Security</button></li>
             </ul>
           </div>
-      
-          <!-- Projects List -->
+
           <ul class="project-list">
-            <li class="project-item active" data-filter-item data-category="Machine Learning">
+
+            <li class="project-item active" data-filter-item data-category="Data Engineering">
               <a href="#">
                 <figure class="project-img">
-                  <img src="./assets/images/irisflower.png" alt="Iris Flower Classification" loading="lazy">
+                  <img src="./assets/images/pipeline.png" alt="Enterprise Data Pipeline" loading="lazy">
                 </figure>
-                <h3 class="project-title">Iris Flower Classification</h3>
-                <p class="project-category">Machine Learning</p>
+                <h3 class="project-title">Enterprise Data Pipeline Infrastructure</h3>
+                <p class="project-category">Data Engineering</p>
               </a>
             </li>
-      
-            <li class="project-item active" data-filter-item data-category="Machine Learning">
+
+            <li class="project-item active" data-filter-item data-category="AI / ML">
               <a href="#">
                 <figure class="project-img">
-                  <img src="./assets/images/emailspam.jpg" alt="Email Spam Detection" loading="lazy">
+                  <img src="./assets/images/llmanalyst.png" alt="LLM AI Analyst" loading="lazy">
                 </figure>
-                <h3 class="project-title">Email Spam Detection</h3>
-                <p class="project-category">Machine Learning</p>
+                <h3 class="project-title">LLM-Powered AI Analyst (NLP-to-SQL)</h3>
+                <p class="project-category">AI / ML</p>
               </a>
             </li>
-      
-            <li class="project-item active" data-filter-item data-category="Machine Learning">
+
+            <li class="project-item active" data-filter-item data-category="Full-Stack">
               <a href="#">
                 <figure class="project-img">
-                  <img src="./assets/images/carprice.jpg" alt="Car Price Prediction" loading="lazy">
+                  <img src="./assets/images/pricingtool.png" alt="Pricing Estimation Tool" loading="lazy">
                 </figure>
-                <h3 class="project-title">Car Price Prediction</h3>
-                <p class="project-category">Machine Learning</p>
+                <h3 class="project-title">Engagement Pricing Estimation Tool</h3>
+                <p class="project-category">Full-Stack</p>
               </a>
             </li>
-      
-            <li class="project-item active" data-filter-item data-category="Machine Learning">
+
+            <li class="project-item active" data-filter-item data-category="Full-Stack">
               <a href="#">
                 <figure class="project-img">
-                  <img src="./assets/images/salesprediction.png" alt="Sales Prediction" loading="lazy">
+                  <img src="./assets/images/financialportal.png" alt="Financial Data Reporting Portal" loading="lazy">
                 </figure>
-                <h3 class="project-title">Sales Prediction</h3>
-                <p class="project-category">Machine Learning</p>
+                <h3 class="project-title">Financial Data Reporting Portal</h3>
+                <p class="project-category">Full-Stack</p>
               </a>
             </li>
-      
-            <li class="project-item active" data-filter-item data-category="Machine Learning">
+
+            <li class="project-item active" data-filter-item data-category="AI / ML">
               <a href="#">
                 <figure class="project-img">
                   <img src="./assets/images/ubertaxidemand.png" alt="Uber Taxi Demand Prediction" loading="lazy">
                 </figure>
                 <h3 class="project-title">Uber Taxi Demand Prediction</h3>
-                <p class="project-category">Machine Learning</p>
+                <p class="project-category">AI / ML</p>
               </a>
             </li>
-      
-            <li class="project-item active" data-filter-item data-category="Security and Optimization">
+
+            <li class="project-item active" data-filter-item data-category="Security">
+              <a href="https://link.springer.com/chapter/10.1007/978-981-95-0144-1_24" target="_blank">
+                <figure class="project-img">
+                  <img src="./assets/images/steganography.png" alt="Deep Learning Steganography" loading="lazy">
+                </figure>
+                <h3 class="project-title">Deep Learning Steganography — IEEE ICCIC 2024</h3>
+                <p class="project-category">Security</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Full-Stack">
               <a href="#">
                 <figure class="project-img">
-                  <img src="./assets/images/steganography.png" alt="Steganography Optimization" loading="lazy">
+                  <img src="./assets/images/blogwebsite.jpg" alt="Full-Stack Blogging Platform" loading="lazy">
                 </figure>
-                <h3 class="project-title">Steganography Optimization</h3>
-                <p class="project-category">Security and Optimization</p>
+                <h3 class="project-title">Full-Stack Blogging Platform</h3>
+                <p class="project-category">Full-Stack</p>
               </a>
             </li>
-      
-            <li class="project-item active" data-filter-item data-category="Network Programming">
-              <a href="#">
-                <figure class="project-img">
-                  <img src="./assets/images/socketprogramming.jpg" alt="Socket Programming" loading="lazy">
-                </figure>
-                <h3 class="project-title">Socket Programming</h3>
-                <p class="project-category">Network Programming</p>
-              </a>
-            </li>
-      
-            <li class="project-item active" data-filter-item data-category="Web Development">
-              <a href="#">
-                <figure class="project-img">
-                  <img src="./assets/images/blogwebsite.jpg" alt="Blog Website" loading="lazy">
-                </figure>
-                <h3 class="project-title">Blog Website</h3>
-                <p class="project-category">Web Development</p>
-              </a>
-            </li>
+
           </ul>
         </section>
       </article>
-      
+
       <script>
         const filterButtons = document.querySelectorAll('[data-filter-btn]');
         const projectItems = document.querySelectorAll('[data-filter-item]');
-      
+
         filterButtons.forEach((button) => {
           button.addEventListener('click', () => {
             const filterCategory = button.textContent.trim();
-      
-            // Highlight the active button
             filterButtons.forEach((btn) => btn.classList.remove('active'));
             button.classList.add('active');
-      
-            // Show/hide projects based on the selected category
             projectItems.forEach((item) => {
               const itemCategory = item.getAttribute('data-category');
               if (filterCategory === 'All' || itemCategory === filterCategory) {
@@ -922,77 +521,63 @@
         });
       </script>
 
-            <!--
-        - #BLOG
-      -->
-
+      <!-- SKILLS -->
       <article class="skills" data-page="skills">
         <section class="skill">
-          <h3 class="h3 skills-title">My skills</h3>
-<ul class="skills-list content-card">
+          <h3 class="h3 skills-title">My Skills</h3>
 
-  <li class="skills-item">
-    <div class="title-wrapper">
-      <h5 class="h5">Programming Languages</h5>
-    </div>
-    <p class="timeline-text" style="margin-top: 5px; color: #d6d6d6;">
-      Python, SQL, Java, C, JavaScript
-    </p>
-  </li>
+          <ul class="skills-list content-card">
 
-  <li class="skills-item">
-    <div class="title-wrapper">
-      <h5 class="h5">Data Engineering</h5>
-    </div>
-    <p class="timeline-text" style="margin-top: 5px; color: #d6d6d6;">
-      Snowflake, dbt, Apache Airflow, Azure Data Services, MySQL, MongoDB
-    </p>
-  </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Languages</h5>
+              </div>
+              <p class="timeline-text" style="margin-top: 5px; color: #d6d6d6;">
+                Python, SQL, Java, JavaScript, TypeScript, HTML, CSS
+              </p>
+            </li>
 
-  <li class="skills-item">
-    <div class="title-wrapper">
-      <h5 class="h5">Machine Learning & Deep Learning</h5>
-    </div>
-    <p class="timeline-text" style="margin-top: 5px; color: #d6d6d6;">
-      TensorFlow, PyTorch, Keras, Scikit-Learn, Pandas, NumPy
-    </p>
-  </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Engineering</h5>
+              </div>
+              <p class="timeline-text" style="margin-top: 5px; color: #d6d6d6;">
+                Apache Airflow, dbt, ETL/ELT, Medallion Architecture, Data Warehousing, FastAPI, REST APIs, Power BI
+              </p>
+            </li>
 
-  <li class="skills-item">
-    <div class="title-wrapper">
-      <h5 class="h5">Web Development</h5>
-    </div>
-    <p class="timeline-text" style="margin-top: 5px; color: #d6d6d6;">
-      React.js, Node.js, Express.js, HTML, CSS, JavaScript
-    </p>
-  </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud & DevOps</h5>
+              </div>
+              <p class="timeline-text" style="margin-top: 5px; color: #d6d6d6;">
+                Azure, Docker, GitHub Actions CI/CD, Git, Linux
+              </p>
+            </li>
 
-  <li class="skills-item">
-    <div class="title-wrapper">
-      <h5 class="h5">Tools & DevOps</h5>
-    </div>
-    <p class="timeline-text" style="margin-top: 5px; color: #d6d6d6;">
-      Docker, Git, Postman, Azure, Linux
-    </p>
-  </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Databases & Frameworks</h5>
+              </div>
+              <p class="timeline-text" style="margin-top: 5px; color: #d6d6d6;">
+                Snowflake, PostgreSQL, MongoDB, MySQL, React.js, Node.js, Express.js
+              </p>
+            </li>
 
-  <li class="skills-item">
-    <div class="title-wrapper">
-      <h5 class="h5">Core Concepts</h5>
-    </div>
-    <p class="timeline-text" style="margin-top: 5px; color: #d6d6d6;">
-      Data Structures & Algorithms, System Design, OOP, DBMS, SDLC
-    </p>
-  </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">ML & AI</h5>
+              </div>
+              <p class="timeline-text" style="margin-top: 5px; color: #d6d6d6;">
+                TensorFlow, PyTorch, Scikit-Learn, Keras, Pandas, NumPy, NLP, Time-Series Forecasting, LLM, Snowflake Cortex
+              </p>
+            </li>
 
-</ul>
+          </ul>
         </section>
       </article>
 
-      <!--
-        - #CONTACT
-      -->
-
+      <!-- CONTACT -->
       <article class="contact" data-page="contact">
 
         <header>
@@ -1002,56 +587,35 @@
         <section class="mapbox" data-mapbox>
           <figure>
             <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.415601885885!2d78.4414727741632!3d17.371184888068932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb96ea20f917d5%3A0xa93bc3be7aa6b403!2sGudimalkapur%2C%20Hyderabad%2C%20Telangana%20500028!5e0!3m2!1sen!2sin!4v1647608789441!5m2!1sen!2sin"
-            width="400" height="300" loading="lazy"></iframe>
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.415601885885!2d78.4414727741632!3d17.371184888068932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb96ea20f917d5%3A0xa93bc3be7aa6b403!2sGudimalkapur%2C%20Hyderabad%2C%20Telangana%20500028!5e0!3m2!1sen!2sin!4v1647608789441!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy">
+            </iframe>
           </figure>
         </section>
 
         <section class="contact-form">
-
           <h3 class="h3 form-title">Contact Form</h3>
-
           <form action="#" class="form" data-form>
-
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
               <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
-
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
-
           </form>
-
         </section>
 
       </article>
 
     </div>
-
   </main>
 
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
-
 </html>
